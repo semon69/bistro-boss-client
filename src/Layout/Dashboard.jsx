@@ -25,10 +25,10 @@ const Dashboard = () => {
                         {
                             isAdmin ?
                                 <>
-                                    <li><NavLink to='/dashboard/userHome'><FaHome /> ADMIN HOME</NavLink> </li>
+                                    <li><NavLink to='/dashboard/adminHome'><FaHome /> ADMIN HOME</NavLink> </li>
                                     <li><NavLink to='/dashboard/addItem'><FaUtensils /> ADD ITEMS</NavLink> </li>
                                     <li><NavLink to='/dashboard/manageItem'><FaBars /> MANAGE ITEMS</NavLink> </li>
-                                    <li><NavLink to='/dashboard/payment'><FaBook /> MANAGE BOOKINGS</NavLink> </li>
+                                    <li><NavLink to='/dashboard/manageBookings'><FaBook /> MANAGE BOOKINGS</NavLink> </li>
                                     <li><NavLink to='/dashboard/allUsers'><FaUserAlt /> ALL USERS</NavLink> </li>
                                 </> :
                                 <>
