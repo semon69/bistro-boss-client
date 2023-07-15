@@ -17,7 +17,7 @@ const AddItem = () => {
             method: 'POST',
             body: formData
         })
-            .then(res => res.json())
+            .then(res => res.json()) 
             .then(imgRes => {
                 // console.log(imgRes);
                 if (imgRes.success) {
