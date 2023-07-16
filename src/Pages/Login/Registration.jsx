@@ -23,7 +23,7 @@ const Registration = () => {
                 profileUpdate(name, photo)
                     .then(() => {
                         const savedUser = { name: name, email: result.user.email }
-                        fetch('http://localhost:5000/users', {
+                        fetch('https://bistro-boss-server-six-sage.vercel.app/users', {
                             method: 'POST',
                             headers: { 'content-type': 'application/json' },
                             body: JSON.stringify(savedUser)

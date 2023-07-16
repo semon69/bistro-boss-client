@@ -15,7 +15,7 @@ const useCart = () => {
             return response.data
         },
         // queryFn: async ()=> {
-        //     const response = await fetch(`http://localhost:5000/carts?email=${user?.email}`, {
+        //     const response = await fetch(`https://bistro-boss-server-six-sage.vercel.app/carts?email=${user?.email}`, {
         //         headers: {authorization: `Bearer ${token}`}
         //     })
         //     return response.json()
